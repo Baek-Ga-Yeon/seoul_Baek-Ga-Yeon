@@ -1,0 +1,56 @@
+@media (max-width: 767px) {
+    
+    
+    #intro {
+        height: 1150px;
+        background-image: url(../img/mobile/intro/mobile_intro_bg.png)
+    }
+    
+    #intro .introWrap {
+        width: 189px;
+        height: 129px;
+        
+        margin-left: -94.5px;
+/*        background-color: yellow;*/
+        
+        top: 230px;
+    }
+ 
+    #intro .introWrap .logo {
+        width: 189px;
+        height: 129px;
+        background-image: url(../img/mobile/intro/mobile_logo.png);
+    }
+    
+    #intro .introWrap .lion,
+    #intro .introWrap .rabbit,
+    #intro .introWrap .bear,
+    #intro .introWrap .monkey,
+    #intro .cloudWrap .dragonfly {
+        display: none;
+    }
+    
+    
+    
+    
+    #intro .cloudWrap {
+        height: 350px;
+        
+        top: 280px;
+    }
+    
+    #intro .cloudWrap .leftCloud {
+        width: 267px;
+        height: 314px;
+        background-image: url(../img/mobile/intro/mobile_cloud1.png);
+    }
+
+    #intro .cloudWrap .rightCloud {
+        width: 237px;
+        height: 309px;
+        background-image: url(../img/mobile/intro/mobile_cloud2.png);
+    }
+    
+    
+    
+}

@@ -1,0 +1,192 @@
+/*Default CSS*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*intro*/
+#intro {
+    width: 100%;
+    height: 1600px;
+    background-image: url(../img/intro/intro_bg.png);
+}
+
+#intro .introWrap {
+    position: relative;
+
+    width: 760px;
+    height: 516px;
+/*    background-color: yellow;*/
+    
+    left: 50%;
+    margin-left: -380px;
+}
+
+#intro .introWrap .logo {
+    position: absolute;
+    
+    width: 760px;
+    height: 516px;
+    background-image: url(../img/intro/logo.png);
+    
+    z-index: 100;
+}
+#intro .introWrap .lion {
+    position: absolute;
+    
+    width: 161px;
+    height: 161px;
+    background-image: url(../img/intro/lion.png);
+    
+    margin: 80px 0 0 30px;
+}
+
+#intro .introWrap .rabbit {
+    position: absolute;
+    
+    width: 105px;
+    height: 129px;
+    background-image: url(../img/intro/rabbit.png);
+    
+    margin: 90px 0 0 580px;
+}
+
+#intro .introWrap .bear {
+    position: absolute;
+    
+    width: 112px;
+    height: 105px;
+    background-image: url(../img/intro/bear.png);
+    
+    margin: 310px 0 0 560px;
+    
+    z-index: 200px;
+}
+
+#intro .introWrap .monkey {
+    position: absolute;
+    
+    width: 85px;
+    height: 93px;
+    background-image: url(../img/intro/monkey.png);
+    
+    margin: 310px 0 0 50px;
+    
+    z-index: 200;
+}
+
+#intro .cloudWrap {
+    position: relative;
+    
+    width: 100%;
+    height: 1050px;
+/*    background-color: pink;*/
+}
+
+#intro .cloudWrap .leftCloud {
+    position: absolute;
+    
+    width: 934px;
+    height: 816px;
+    background-image: url(../img/intro/cloud1.png);
+    
+    left: 0;
+    
+    z-index: 2;
+}
+
+#intro .cloudWrap .rightCloud {
+    position: absolute;
+    
+    width: 843px;
+    height: 858px;
+    background-image: url(../img/intro/cloud2.png);
+    
+    right: 0;
+}
+
+#intro .cloudWrap .dragonfly {
+    position: absolute;
+    
+    width: 366px;
+    height: 228px;
+    background-image: url(../img/intro/dragonfly.png);
+    
+    top: 800px;
+    
+/*    background-color: yellow;*/
+}
+
+
+/*farm1*/
+#farm1 {
+    position: relative;
+    
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/farm/farm1/farm1_bg.png);
+}
+
+#farm1 .leftRice1 {
+    position: absolute;
+    
+    width: 390px;
+    height: 670px;
+    background-image: url(../img/farm/farm1/leftrice.png);
+    
+    left: 0;
+}
+
+#farm1 .rightRice1 {
+    position: absolute;
+    
+    width: 335px;
+    height: 570px;
+    background-image: url(../img/farm/farm1/rightrice.png);
+    
+    right: 0;
+    top: 100px;
+}
+
+
+#farm1 .farmer {
+    position: absolute;
+    
+    width: 747px;
+    height: 1078px;
+    background-image: url(../img/farm/farm1/farmer.png);
+    
+    left: 50%;
+    margin-left: -310px;
+}
+
+#farm1 .farmSpeechWrap {
+    position: relative;
+    
+    top: 250px;
+    left: 150px;
+}
+
+#farm1 .farmSpeechWrap .farmSpeech {
+    color: #895c2f;
+    font-size: 18px;
+    line-height: 27px;
+}
