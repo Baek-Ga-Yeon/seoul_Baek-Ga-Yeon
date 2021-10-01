@@ -2045,7 +2045,6 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 
 
 /*    네이버 블로그    */
-
 .blog-container {
 	width: 1080px;
 	margin: 0 auto;
@@ -2520,8 +2519,6 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 
 .blog-main #blog-main-content .blog-main-right {
 	width: 280px;
-    height: 1700px;
-    background: pink;
 }
 
 .blog-main #blog-main-content .blog-main-right #blog-account {
@@ -2593,7 +2590,7 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 
 .blog-main #blog-main-content .blog-main-right #blog-guide p {
 	width: 145px;
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 25px;
 	color: #222;
 }
@@ -2727,5 +2724,251 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 }
 
 
+
+
+
+
+
+
+
+/*   블로그 상세 페이지   */
+.blog-border {
+	border: 1px solid #eaeaec;
+}
+
+.blog-main-detail {
+	padding-top: 0;
+	padding-bottom: 100px;
+}
+
+.blog-main-detail #program {
+	background-color: #634ea4;
+	padding: 62px 0 50px;
+
+	color: #ffffff;
+}
+
+.blog-main-detail #program h3 {
+	font-size: 38px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.blog-main-detail #program p {
+	font-size: 16px;
+}
+
+
+
+.blog-main-detail #program-nav {
+	border-bottom: solid 1px #ebebeb;
+	background-color: #ffffff;
+
+	padding: 10px 0;
+}
+
+
+.blog-main-detail #program-nav .blog-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
+.blog-main-detail #program-nav a {
+	font-size: 14px;
+	color: #666;
+}
+
+.blog-main-detail #program-nav h4 {
+	font-weight: 600;
+}
+
+.blog-main-detail #program-nav h4 a {
+	color: #000;
+}
+
+.blog-main-detail #program-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.blog-main-detail #program-nav ul li a:before {
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	background-color: #ababab;
+	margin: 0 12px;
+
+	vertical-align: -1px;
+}
+
+
+
+
+.blog-main-detail #program-info {
+	background-color: #f8f8f8;
+	padding: 44px 0 36px;
+}
+
+.blog-main-detail #program-info .program-info-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+.blog-main-detail #program-info .program-info-wrap h4 {
+	font-size: 32px;
+	color: #7d55c8;
+	line-height: 44px;
+
+	margin-right: 120px;
+}
+
+.blog-main-detail #program-info .program-info-wrap p {
+	font-size: 18px;
+	line-height: 28px;
+	color: #262626;
+
+	margin-bottom: 18px;
+}
+
+.blog-main-detail #program-info .program-info-wrap a {
+	font-size: 13px;
+	color: #7d55c8;
+}
+
+
+
+
+.blog-main-detail #program-info .program-msg-box {
+	padding: 29px;
+	background-color: #ffffff;
+}
+
+.blog-main-detail #program-info .program-msg-box .from {
+	display: block;
+	font-size: 13px;
+	font-weight: 600;
+	color: #7d55c8;
+
+	margin-bottom: 6px;
+}
+
+.blog-main-detail #program-info .program-msg-box .program-msg-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.blog-main-detail #program-info .program-msg-box p {
+	width: 810px;
+	font-size: 18px;
+}
+
+.blog-main-detail #program-info .program-msg-box .date {
+	color: #693bbc;
+}
+
+.blog-main-detail #program-info .program-msg-box .txt:before {
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 18px;
+	background-color: #d5d5d5;
+
+	margin: 0 9px;
+
+	vertical-align: -1px;
+}
+
+.blog-main-detail #program-info .program-msg-box a {
+	display: block;
+	width: 179px;
+	height: 40px;
+	background-color: #7d55c8;
+	color: #ffffff;
+	line-height: 44px;
+	text-align: center;
+}
+
+.blog-main-detail #program-info .program-msg-box a:hover {
+	background-color: rgba(125, 85, 200, 0.8);
+}
+
+
+.blog-main-detail #program-day {
+	background-color: #ffffff;
+}
+
+.blog-main-detail #program-day .program-day-lists {
+
+}
+
+.blog-main-detail #program-day .program-day-list {
+	
+}
+
+.blog-main-detail #program-day .program-day-title-wrap {
+	padding: 36px 0 16px;
+}
+
+.blog-main-detail #program-day .program-day-title-wrap .date {
+    color: #693bbc;
+    font-size: 16px;
+}
+
+.blog-main-detail #program-day .program-day-title-wrap .txt {
+	font-size: 16px;
+}
+
+.blog-main-detail #program-day .program-day-title-wrap .txt:before {
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 18px;
+	background-color: #d5d5d5;
+
+	margin: 0 9px;
+
+	vertical-align: -4px;
+}
+
+.blog-main-detail #program-day .program-day-title-wrap .msg {
+	font-size: 14px;
+	color: #666666;
+}
+
+
+.blog-main-detail #program-day .program-image-lists {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.blog-main-detail #program-day .program-image-lists li {
+	width: 175px;
+	height: 228px;
+}
+
+.blog-main-detail #program-day .program-image-lists li img {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.blog-main-detail #program-day .program-image-lists li h4 {
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 15px;
+}
+
+.blog-main-detail #program-day .program-image-lists li span {
+	font-size: 12px;
+	color: #959595;	
+}
 
 
